@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\brook\\Desktop\\restsharp-apicall-console\\restsharp-apicall-console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\brook\\Desktop\\restsharp-apicall-console\\restsharp-apicall-console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brook\\Desktop\\restsharp-apicall-console\\restsharp-apicall-console.csproj",
+        "projectName": "restsharp-apicall-console",
+        "projectPath": "C:\\Users\\brook\\Desktop\\restsharp-apicall-console\\restsharp-apicall-console.csproj",
+        "packagesPath": "C:\\Users\\brook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brook\\Desktop\\restsharp-apicall-console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brook\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
